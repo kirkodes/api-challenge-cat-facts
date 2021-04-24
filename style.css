@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+
+body {
+    font-family: 'Bebas Neue';
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 31, 36);
+    /* background-color: linear-gradient(to right, rgb(24, 26, 31), rgb(155, 155, 167)); */
+    background-image: url('https://www.transparenttextures.com/patterns/axiom-pattern.png');
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.child {
+    height: 60%;
+    width: 60%;
+    background-color: rgb(54, 57, 65);
+    border: solid 5px rgb(23, 23, 24);
+    flex-direction: column;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+}
+
+h1 {
+    margin: 100px;
+    letter-spacing: 9px;
+    font-size: 100px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    font-family: 'Bebas Neue', cursive;
+}
+
+img {
+    border-radius: 5px;
+    max-width: 70%;
+    height: auto;
+    align-content: center;
+    margin: auto;
+}
+
+.get-cat-facts {
+    margin: 100px;
+}
+
+.paw-print {
+    justify-content:left;
+}
+
+.bean {
+    width: 25px;
+    height: 25px;
+    background-color: #bebebe;
+    border-radius: 45%  45%  50%  50%  / 50%   50%         50%  50%;
+    display:-webkit-flex;
+    position: absolute;
+}  
+
+.large {
+    width: 80px;
+    height: 70px;
+    transform: rotate(0deg);
+    left: 99px;
+    top: 50px;
+}
+
+.toe-1 {
+    transform: rotate(-35deg);
+    left: 78px;
+    top: 43px;
+}
+
+.toe-2 {
+    transform: rotate(-15deg);
+    left: 105px;
+    top: 20px;
+}
+
+.toe-3 {
+    transform: rotate(15deg);
+    position: absolute;
+    left: 145px;
+    top: 20px;
+}
+
+.toe-4 {
+    transform: rotate(35deg);
+    position: absolute;
+    left: 175px;
+    top: 42px;
+}
